@@ -1,0 +1,18 @@
+{
+  "name": "ai-page-summarizer",
+  "version": "1.0.0",
+  "description": "1. Clone repo\r 2. Get Gemini API key from aistudio.google.com (free)\r 3. Add key to background.js\r 4. Load unpacked in chrome://extensions",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
