@@ -1,5 +1,3 @@
-// content-script.js
-
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "getContent") {
     try {
@@ -11,7 +9,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       let text = article.innerText
         .replace(/\s+/g, ' ')
         .trim()
-        .slice(0, 5000);
+        .slice(0, 15000);
 
       sendResponse({
         success: true,

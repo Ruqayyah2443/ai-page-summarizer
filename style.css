@@ -1,6 +1,6 @@
 body {
-  width: 380px;
-  min-height: 200px;
+  width: 300px;
+  min-height: 150px;
   font-family: Arial, sans-serif;
   padding: 16px;
   margin: 0;
@@ -28,10 +28,19 @@ button {
   font-size: 14px;
 }
 
-button:focus { outline: 2px solid #973597; outline-offset: 2px; }
-button:disabled { background: #aaa; cursor: not-allowed; }
+button:focus { 
+  outline: 2px solid #973597; 
+  outline-offset: 2px; 
+}
+button:disabled { 
+  background: #aaa; 
+  cursor: not-allowed; 
+}
 
-#loading { display: none; text-align: center; margin: 12px 0; }
+#loading { 
+  display: none; text-align: 
+  center; margin: 12px 0; 
+}
 
 #summary-output {
   margin-top: 12px;
